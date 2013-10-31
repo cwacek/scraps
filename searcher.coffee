@@ -36,6 +36,7 @@ Searcher.prototype.search = (query, collector) ->
             self.onComplete {searcher: self}
         else
             console.log "Fetched content from... " + url
+            console.log response
             env =
               html: html
               scripts: [jQueryPath]

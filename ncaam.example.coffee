@@ -1,4 +1,6 @@
-Searcher = require './grabber'
+# An example which uses the searcher to parse the NCAAM basketball schedule
+
+Searcher = require './searcher'
 
 config =
     base_url: 'http://espn.go.com/mens-college-basketball/schedule'

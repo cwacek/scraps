@@ -10,4 +10,8 @@ searcher.on 'item', (item) ->
 searcher.on 'complete', (searcher) ->
     console.log "Done!"
 
+searcher.on 'error', (error) ->
+    console.log "Error."
+    console.log error
+
 searcher.search process.argv[2]
