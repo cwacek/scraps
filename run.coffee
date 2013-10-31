@@ -1,4 +1,4 @@
-searcher = require './ncaam'
+searcher = require './ncaam.example'
 
 if process.argv.length < 3
     console.log "Not enough arguments provided."

@@ -1,4 +1,4 @@
-Web Scraper
+Scraps
 ===========
 
 A tool to fetch pages and parse contents out from them.
